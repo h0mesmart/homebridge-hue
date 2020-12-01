@@ -1,0 +1,2006 @@
+
+/* resourcelinks */
+{
+    "15630": {
+      "name": "homebridge-hue",
+      "description": "blacklist",
+      "type": "Link",
+      "classid": 1,
+      "owner": "LUEHd4BZDBij8Nxf-JnY2gzPg64EScHcV9q9j04Z",
+      "recycle": false,
+      "links": [
+        "/groups/3",
+        "/groups/4",
+        "/groups/5",
+        "/groups/7",
+        "/groups/8",
+        "/groups/10",
+        "/groups/11",
+        "/groups/12",
+        "/groups/13",
+        "/groups/14",
+        "/groups/15",
+        "/groups/16",
+        "/groups/17",
+        "/groups/18",
+        "/groups/19"
+      ]
+    },
+    "50902": {
+      "name": "homebridge-hue",
+      "description": "lightlist",
+      "type": "Link",
+      "classid": 1,
+      "owner": "LUEHd4BZDBij8Nxf-JnY2gzPg64EScHcV9q9j04Z",
+      "recycle": false,
+      "links": [
+        "/lights/1",
+        "/lights/2",
+        "/lights/3",
+        "/lights/4",
+        "/lights/5",
+        "/lights/6",
+        "/lights/7",
+        "/lights/8",
+        "/lights/9",
+        "/lights/10",
+        "/lights/11",
+        "/lights/12",
+        "/lights/13",
+        "/lights/14",
+        "/lights/15",
+        "/lights/16",
+        "/lights/17",
+        "/lights/20",
+        "/lights/21",
+        "/lights/22",
+        "/lights/23",
+        "/lights/24",
+        "/lights/25",
+        "/lights/26",
+        "/lights/27",
+        "/lights/28",
+        "/lights/29",
+        "/lights/30",
+        "/lights/31",
+        "/lights/32",
+        "/lights/33",
+        "/lights/34"
+      ]
+    }
+  }
+/* groups*/
+
+  "1": {
+    "name": "Cuisine",
+    "lights": [
+      "28",
+      "24",
+      "5"
+    ],
+    "sensors": [],
+    "type": "Room",
+    "state": {
+      "all_on": false,
+      "any_on": false
+    },
+    "recycle": false,
+    "class": "Kitchen",
+    "action": {
+      "on": false,
+      "bri": 254,
+      "hue": 0,
+      "sat": 181,
+      "effect": "none",
+      "xy": [
+        0.171,
+        0.3486
+      ],
+      "ct": 433,
+      "alert": "none",
+      "colormode": "hs"
+    }
+  },
+  "2": {
+    "name": "Salon",
+    "lights": [
+      "21",
+      "25",
+      "26",
+      "27",
+      "23",
+      "20"
+    ],
+    "sensors": [],
+    "type": "Room",
+    "state": {
+      "all_on": false,
+      "any_on": false
+    },
+    "recycle": false,
+    "class": "Living room",
+    "action": {
+      "on": false,
+      "bri": 127,
+      "hue": 40192,
+      "sat": 238,
+      "effect": "none",
+      "xy": [
+        0.1419,
+        0.1421
+      ],
+      "ct": 378,
+      "alert": "lselect",
+      "colormode": "ct"
+    }
+  },
+  "3": {
+    "name": "Bureau",
+    "lights": [
+      "30",
+      "4"
+    ],
+    "sensors": [],
+    "type": "Room",
+    "state": {
+      "all_on": false,
+      "any_on": false
+    },
+    "recycle": false,
+    "class": "Office",
+    "action": {
+      "on": false,
+      "bri": 76,
+      "ct": 356,
+      "alert": "select",
+      "colormode": "hs"
+    }
+  },
+  "4": {
+    "name": "Entrée",
+    "lights": [
+      "3"
+    ],
+    "sensors": [],
+    "type": "Room",
+    "state": {
+      "all_on": false,
+      "any_on": false
+    },
+    "recycle": false,
+    "class": "Front door",
+    "action": {
+      "on": false,
+      "bri": 2,
+      "alert": "select"
+    }
+  },
+  "5": {
+    "name": "Chambre",
+    "lights": [
+      "29",
+      "8",
+      "9"
+    ],
+    "sensors": [],
+    "type": "Room",
+    "state": {
+      "all_on": false,
+      "any_on": false
+    },
+    "recycle": false,
+    "class": "Bedroom",
+    "action": {
+      "on": false,
+      "bri": 254,
+      "ct": 342,
+      "alert": "select",
+      "colormode": "hs"
+    }
+  },
+  "6": {
+    "name": "Bureau Rez",
+    "lights": [
+      "34",
+      "22",
+      "2"
+    ],
+    "sensors": [],
+    "type": "Room",
+    "state": {
+      "all_on": false,
+      "any_on": true
+    },
+    "recycle": false,
+    "class": "Office",
+    "action": {
+      "on": false,
+      "bri": 254,
+      "hue": 8960,
+      "sat": 140,
+      "effect": "none",
+      "xy": [
+        0.4663,
+        0.3466
+      ],
+      "ct": 361,
+      "alert": "select",
+      "colormode": "hs"
+    }
+  },
+  "7": {
+    "name": "Escalier",
+    "lights": [
+      "10"
+    ],
+    "sensors": [],
+    "type": "Room",
+    "state": {
+      "all_on": false,
+      "any_on": false
+    },
+    "recycle": false,
+    "class": "Staircase",
+    "action": {
+      "on": false,
+      "bri": 76,
+      "alert": "select"
+    }
+  },
+  "8": {
+    "name": "Douche",
+    "lights": [
+      "11"
+    ],
+    "sensors": [],
+    "type": "Room",
+    "state": {
+      "all_on": false,
+      "any_on": false
+    },
+    "recycle": false,
+    "class": "Toilet",
+    "action": {
+      "on": false,
+      "bri": 254,
+      "alert": "select"
+    }
+  },
+  "9": {
+    "name": "Chambre Nana",
+    "lights": [
+      "33",
+      "32",
+      "12"
+    ],
+    "sensors": [],
+    "type": "Room",
+    "state": {
+      "all_on": false,
+      "any_on": false
+    },
+    "recycle": false,
+    "class": "Kids bedroom",
+    "action": {
+      "on": false,
+      "bri": 254,
+      "hue": 0,
+      "sat": 175,
+      "effect": "none",
+      "xy": [
+        0.445,
+        0.4067
+      ],
+      "ct": 369,
+      "alert": "select",
+      "colormode": "hs"
+    }
+  },
+  "10": {
+    "name": "Salle de bain",
+    "lights": [
+      "15",
+      "14",
+      "13"
+    ],
+    "sensors": [],
+    "type": "Room",
+    "state": {
+      "all_on": false,
+      "any_on": false
+    },
+    "recycle": false,
+    "class": "Bathroom",
+    "action": {
+      "on": false,
+      "bri": 76,
+      "alert": "select"
+    }
+  },
+  "11": {
+    "name": "Couloir",
+    "lights": [
+      "31",
+      "6",
+      "17"
+    ],
+    "sensors": [],
+    "type": "Room",
+    "state": {
+      "all_on": false,
+      "any_on": true
+    },
+    "recycle": false,
+    "class": "Hallway",
+    "action": {
+      "on": false,
+      "bri": 254,
+      "hue": 21760,
+      "sat": 254,
+      "effect": "none",
+      "xy": [
+        0.2256,
+        0.6275
+      ],
+      "ct": 234,
+      "alert": "select",
+      "colormode": "hs"
+    }
+  },
+  "12": {
+    "name": "Entrée Couverte",
+    "lights": [
+      "16"
+    ],
+    "sensors": [],
+    "type": "Room",
+    "state": {
+      "all_on": false,
+      "any_on": false
+    },
+    "recycle": false,
+    "class": "Carport",
+    "action": {
+      "on": false,
+      "bri": 25,
+      "alert": "select"
+    }
+  },
+  "13": {
+    "name": "Rez",
+    "lights": [
+      "3",
+      "22",
+      "2",
+      "10",
+      "16",
+      "7",
+      "1"
+    ],
+    "sensors": [],
+    "type": "Zone",
+    "state": {
+      "all_on": false,
+      "any_on": true
+    },
+    "recycle": false,
+    "class": "Downstairs",
+    "action": {
+      "on": false,
+      "bri": 254,
+      "hue": 8960,
+      "sat": 140,
+      "effect": "none",
+      "xy": [
+        0.4663,
+        0.3466
+      ],
+      "ct": 361,
+      "alert": "select",
+      "colormode": "hs"
+    }
+  },
+  "14": {
+    "name": "Premier",
+    "lights": [
+      "21",
+      "25",
+      "26",
+      "27",
+      "23",
+      "20",
+      "28",
+      "24",
+      "5",
+      "4",
+      "11",
+      "31",
+      "6",
+      "17"
+    ],
+    "sensors": [],
+    "type": "Zone",
+    "state": {
+      "all_on": false,
+      "any_on": true
+    },
+    "recycle": false,
+    "class": "Upstairs",
+    "action": {
+      "on": false,
+      "bri": 254,
+      "hue": 21760,
+      "sat": 254,
+      "effect": "none",
+      "xy": [
+        0.2256,
+        0.6275
+      ],
+      "ct": 234,
+      "alert": "select",
+      "colormode": "hs"
+    }
+  },
+  "15": {
+    "name": "En haut",
+    "lights": [
+      "29",
+      "8",
+      "9",
+      "12",
+      "15",
+      "14",
+      "13"
+    ],
+    "sensors": [],
+    "type": "Zone",
+    "state": {
+      "all_on": false,
+      "any_on": false
+    },
+    "recycle": false,
+    "class": "Top floor",
+    "action": {
+      "on": false,
+      "bri": 76,
+      "ct": 342,
+      "alert": "select",
+      "colormode": "hs"
+    }
+  },
+  "16": {
+    "name": "Toit",
+    "lights": [],
+    "sensors": [],
+    "type": "Room",
+    "state": {
+      "all_on": false,
+      "any_on": false
+    },
+    "recycle": false,
+    "class": "Other",
+    "action": {
+      "on": false,
+      "alert": "none"
+    }
+  },
+  "17": {
+    "name": "Buanderie",
+    "lights": [
+      "1"
+    ],
+    "sensors": [],
+    "type": "Room",
+    "state": {
+      "all_on": false,
+      "any_on": false
+    },
+    "recycle": false,
+    "class": "Laundry room",
+    "action": {
+      "on": false,
+      "bri": 254,
+      "alert": "select"
+    }
+  },
+  "18": {
+    "name": "Cave",
+    "lights": [
+      "7"
+    ],
+    "sensors": [],
+    "type": "Room",
+    "state": {
+      "all_on": false,
+      "any_on": false
+    },
+    "recycle": false,
+    "class": "Other",
+    "action": {
+      "on": false,
+      "bri": 254,
+      "alert": "select"
+    }
+  },
+  "19": {
+    "name": "Local Technique",
+    "lights": [],
+    "sensors": [],
+    "type": "Room",
+    "state": {
+      "all_on": false,
+      "any_on": false
+    },
+    "recycle": false,
+    "class": "Other",
+    "action": {
+      "on": false,
+      "alert": "none"
+    }
+  }
+}
+
+/*lights*/
+
+{
+    "1": {
+      "state": {
+        "on": false,
+        "bri": 254,
+        "alert": "select",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "noupdates",
+        "lastinstall": "2020-02-05T19:15:47"
+      },
+      "type": "Dimmable light",
+      "name": "à la Buanderie",
+      "modelid": "LWA001",
+      "manufacturername": "Signify Netherlands B.V.",
+      "productname": "Hue white lamp",
+      "capabilities": {
+        "certified": true,
+        "control": {
+          "mindimlevel": 5000,
+          "maxlumen": 800
+        },
+        "streaming": {
+          "renderer": false,
+          "proxy": false
+        }
+      },
+      "config": {
+        "archetype": "ceilinground",
+        "function": "functional",
+        "direction": "omnidirectional",
+        "startup": {
+          "mode": "powerfail",
+          "configured": true
+        }
+      },
+      "uniqueid": "00:17:88:01:06:b0:a2:1a-0b",
+      "swversion": "1.65.9_hB3217DF",
+      "swconfigid": "44288730",
+      "productid": "Philips-LWA001-1-A19DLv5"
+    },
+    "2": {
+      "state": {
+        "on": false,
+        "bri": 254,
+        "alert": "select",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "noupdates",
+        "lastinstall": "2020-02-05T19:15:43"
+      },
+      "type": "Dimmable light",
+      "name": "Au Bureau rez",
+      "modelid": "LWA001",
+      "manufacturername": "Signify Netherlands B.V.",
+      "productname": "Hue white lamp",
+      "capabilities": {
+        "certified": true,
+        "control": {
+          "mindimlevel": 5000,
+          "maxlumen": 800
+        },
+        "streaming": {
+          "renderer": false,
+          "proxy": false
+        }
+      },
+      "config": {
+        "archetype": "ceilinground",
+        "function": "functional",
+        "direction": "omnidirectional",
+        "startup": {
+          "mode": "powerfail",
+          "configured": true
+        }
+      },
+      "uniqueid": "00:17:88:01:06:b0:a4:6b-0b",
+      "swversion": "1.65.9_hB3217DF",
+      "swconfigid": "44288730",
+      "productid": "Philips-LWA001-1-A19DLv5"
+    },
+    "3": {
+      "state": {
+        "on": false,
+        "bri": 254,
+        "alert": "select",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "noupdates",
+        "lastinstall": "2020-02-05T19:15:38"
+      },
+      "type": "Dimmable light",
+      "name": "à l’entrée",
+      "modelid": "LWA001",
+      "manufacturername": "Signify Netherlands B.V.",
+      "productname": "Hue white lamp",
+      "capabilities": {
+        "certified": true,
+        "control": {
+          "mindimlevel": 5000,
+          "maxlumen": 800
+        },
+        "streaming": {
+          "renderer": false,
+          "proxy": false
+        }
+      },
+      "config": {
+        "archetype": "ceilinground",
+        "function": "functional",
+        "direction": "omnidirectional",
+        "startup": {
+          "mode": "powerfail",
+          "configured": true
+        }
+      },
+      "uniqueid": "00:17:88:01:06:03:19:00-0b",
+      "swversion": "1.65.9_hB3217DF",
+      "swconfigid": "44288730",
+      "productid": "Philips-LWA001-1-A19DLv5"
+    },
+    "4": {
+      "state": {
+        "on": false,
+        "bri": 76,
+        "alert": "select",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "noupdates",
+        "lastinstall": "2020-02-05T19:15:33"
+      },
+      "type": "Dimmable light",
+      "name": "au bureau",
+      "modelid": "LWA001",
+      "manufacturername": "Signify Netherlands B.V.",
+      "productname": "Hue white lamp",
+      "capabilities": {
+        "certified": true,
+        "control": {
+          "mindimlevel": 5000,
+          "maxlumen": 800
+        },
+        "streaming": {
+          "renderer": false,
+          "proxy": false
+        }
+      },
+      "config": {
+        "archetype": "ceilinground",
+        "function": "functional",
+        "direction": "omnidirectional",
+        "startup": {
+          "mode": "powerfail",
+          "configured": true
+        }
+      },
+      "uniqueid": "00:17:88:01:06:e2:77:57-0b",
+      "swversion": "1.65.9_hB3217DF",
+      "swconfigid": "44288730",
+      "productid": "Philips-LWA001-1-A19DLv5"
+    },
+    "5": {
+      "state": {
+        "on": false,
+        "bri": 254,
+        "alert": "none",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "noupdates",
+        "lastinstall": "2020-02-05T19:15:28"
+      },
+      "type": "Dimmable light",
+      "name": "à la cuisine",
+      "modelid": "LWA001",
+      "manufacturername": "Signify Netherlands B.V.",
+      "productname": "Hue white lamp",
+      "capabilities": {
+        "certified": true,
+        "control": {
+          "mindimlevel": 5000,
+          "maxlumen": 800
+        },
+        "streaming": {
+          "renderer": false,
+          "proxy": false
+        }
+      },
+      "config": {
+        "archetype": "ceilinground",
+        "function": "functional",
+        "direction": "omnidirectional",
+        "startup": {
+          "mode": "powerfail",
+          "configured": true
+        }
+      },
+      "uniqueid": "00:17:88:01:06:00:e7:e9-0b",
+      "swversion": "1.65.9_hB3217DF",
+      "swconfigid": "44288730",
+      "productid": "Philips-LWA001-1-A19DLv5"
+    },
+    "6": {
+      "state": {
+        "on": false,
+        "bri": 254,
+        "alert": "select",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "noupdates",
+        "lastinstall": "2020-02-05T19:15:25"
+      },
+      "type": "Dimmable light",
+      "name": "à la crédence",
+      "modelid": "LWA001",
+      "manufacturername": "Signify Netherlands B.V.",
+      "productname": "Hue white lamp",
+      "capabilities": {
+        "certified": true,
+        "control": {
+          "mindimlevel": 5000,
+          "maxlumen": 800
+        },
+        "streaming": {
+          "renderer": false,
+          "proxy": false
+        }
+      },
+      "config": {
+        "archetype": "ceilinground",
+        "function": "functional",
+        "direction": "omnidirectional",
+        "startup": {
+          "mode": "powerfail",
+          "configured": true
+        }
+      },
+      "uniqueid": "00:17:88:01:06:d2:a4:61-0b",
+      "swversion": "1.65.9_hB3217DF",
+      "swconfigid": "44288730",
+      "productid": "Philips-LWA001-1-A19DLv5"
+    },
+    "7": {
+      "state": {
+        "on": false,
+        "bri": 254,
+        "alert": "select",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "noupdates",
+        "lastinstall": "2020-02-05T19:15:21"
+      },
+      "type": "Dimmable light",
+      "name": "à la Cave",
+      "modelid": "LWA001",
+      "manufacturername": "Signify Netherlands B.V.",
+      "productname": "Hue white lamp",
+      "capabilities": {
+        "certified": true,
+        "control": {
+          "mindimlevel": 5000,
+          "maxlumen": 800
+        },
+        "streaming": {
+          "renderer": false,
+          "proxy": false
+        }
+      },
+      "config": {
+        "archetype": "wallshade",
+        "function": "functional",
+        "direction": "omnidirectional",
+        "startup": {
+          "mode": "powerfail",
+          "configured": true
+        }
+      },
+      "uniqueid": "00:17:88:01:06:b2:5a:09-0b",
+      "swversion": "1.65.9_hB3217DF",
+      "swconfigid": "44288730",
+      "productid": "Philips-LWA001-1-A19DLv5"
+    },
+    "8": {
+      "state": {
+        "on": false,
+        "bri": 102,
+        "alert": "select",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "noupdates",
+        "lastinstall": "2020-02-05T19:15:18"
+      },
+      "type": "Dimmable light",
+      "name": "sous le toit",
+      "modelid": "LWA001",
+      "manufacturername": "Signify Netherlands B.V.",
+      "productname": "Hue white lamp",
+      "capabilities": {
+        "certified": true,
+        "control": {
+          "mindimlevel": 5000,
+          "maxlumen": 800
+        },
+        "streaming": {
+          "renderer": false,
+          "proxy": false
+        }
+      },
+      "config": {
+        "archetype": "wallspot",
+        "function": "functional",
+        "direction": "omnidirectional",
+        "startup": {
+          "mode": "powerfail",
+          "configured": true
+        }
+      },
+      "uniqueid": "00:17:88:01:06:d2:e3:da-0b",
+      "swversion": "1.65.9_hB3217DF",
+      "swconfigid": "44288730",
+      "productid": "Philips-LWA001-1-A19DLv5"
+    },
+    "9": {
+      "state": {
+        "on": false,
+        "bri": 254,
+        "alert": "select",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "noupdates",
+        "lastinstall": "2020-02-05T19:15:13"
+      },
+      "type": "Dimmable light",
+      "name": "à la chambre",
+      "modelid": "LWA001",
+      "manufacturername": "Signify Netherlands B.V.",
+      "productname": "Hue white lamp",
+      "capabilities": {
+        "certified": true,
+        "control": {
+          "mindimlevel": 5000,
+          "maxlumen": 800
+        },
+        "streaming": {
+          "renderer": false,
+          "proxy": false
+        }
+      },
+      "config": {
+        "archetype": "ceilinground",
+        "function": "functional",
+        "direction": "omnidirectional",
+        "startup": {
+          "mode": "powerfail",
+          "configured": true
+        }
+      },
+      "uniqueid": "00:17:88:01:06:d2:d7:c3-0b",
+      "swversion": "1.65.9_hB3217DF",
+      "swconfigid": "44288730",
+      "productid": "Philips-LWA001-1-A19DLv5"
+    },
+    "10": {
+      "state": {
+        "on": false,
+        "bri": 76,
+        "alert": "select",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "noupdates",
+        "lastinstall": "2020-02-05T19:15:10"
+      },
+      "type": "Dimmable light",
+      "name": "le rez escalier",
+      "modelid": "LWE002",
+      "manufacturername": "Signify Netherlands B.V.",
+      "productname": "Hue white candle",
+      "capabilities": {
+        "certified": true,
+        "control": {
+          "mindimlevel": 2000,
+          "maxlumen": 470
+        },
+        "streaming": {
+          "renderer": false,
+          "proxy": false
+        }
+      },
+      "config": {
+        "archetype": "walllantern",
+        "function": "functional",
+        "direction": "omnidirectional",
+        "startup": {
+          "mode": "powerfail",
+          "configured": true
+        }
+      },
+      "uniqueid": "00:17:88:01:06:c1:6f:a2-0b",
+      "swversion": "1.65.9_hB3217DF",
+      "swconfigid": "47CD0325",
+      "productid": "Philips-LWE002-1-E14DLv1"
+    },
+    "11": {
+      "state": {
+        "on": false,
+        "bri": 254,
+        "alert": "select",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "noupdates",
+        "lastinstall": "2020-02-05T19:15:08"
+      },
+      "type": "Dimmable light",
+      "name": "à la douche",
+      "modelid": "LWE002",
+      "manufacturername": "Signify Netherlands B.V.",
+      "productname": "Hue white candle",
+      "capabilities": {
+        "certified": true,
+        "control": {
+          "mindimlevel": 2000,
+          "maxlumen": 470
+        },
+        "streaming": {
+          "renderer": false,
+          "proxy": false
+        }
+      },
+      "config": {
+        "archetype": "ceilinground",
+        "function": "functional",
+        "direction": "omnidirectional",
+        "startup": {
+          "mode": "powerfail",
+          "configured": true
+        }
+      },
+      "uniqueid": "00:17:88:01:06:c1:78:6f-0b",
+      "swversion": "1.65.9_hB3217DF",
+      "swconfigid": "47CD0325",
+      "productid": "Philips-LWE002-1-E14DLv1"
+    },
+    "12": {
+      "state": {
+        "on": false,
+        "bri": 254,
+        "alert": "select",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "noupdates",
+        "lastinstall": "2020-02-05T19:15:05"
+      },
+      "type": "Dimmable light",
+      "name": "à la chambre de nana",
+      "modelid": "LWA001",
+      "manufacturername": "Signify Netherlands B.V.",
+      "productname": "Hue white lamp",
+      "capabilities": {
+        "certified": true,
+        "control": {
+          "mindimlevel": 5000,
+          "maxlumen": 800
+        },
+        "streaming": {
+          "renderer": false,
+          "proxy": false
+        }
+      },
+      "config": {
+        "archetype": "ceilinground",
+        "function": "functional",
+        "direction": "omnidirectional",
+        "startup": {
+          "mode": "powerfail",
+          "configured": true
+        }
+      },
+      "uniqueid": "00:17:88:01:06:d2:52:47-0b",
+      "swversion": "1.65.9_hB3217DF",
+      "swconfigid": "44288730",
+      "productid": "Philips-LWA001-1-A19DLv5"
+    },
+    "13": {
+      "state": {
+        "on": false,
+        "bri": 76,
+        "alert": "select",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "noupdates",
+        "lastinstall": "2020-02-05T19:14:47"
+      },
+      "type": "Dimmable light",
+      "name": "au miroir de gauche",
+      "modelid": "LWE002",
+      "manufacturername": "Signify Netherlands B.V.",
+      "productname": "Hue white candle",
+      "capabilities": {
+        "certified": true,
+        "control": {
+          "mindimlevel": 2000,
+          "maxlumen": 470
+        },
+        "streaming": {
+          "renderer": false,
+          "proxy": false
+        }
+      },
+      "config": {
+        "archetype": "recessedceiling",
+        "function": "functional",
+        "direction": "omnidirectional",
+        "startup": {
+          "mode": "powerfail",
+          "configured": true
+        }
+      },
+      "uniqueid": "00:17:88:01:06:c1:72:d7-0b",
+      "swversion": "1.65.9_hB3217DF",
+      "swconfigid": "47CD0325",
+      "productid": "Philips-LWE002-1-E14DLv1"
+    },
+    "14": {
+      "state": {
+        "on": false,
+        "bri": 76,
+        "alert": "select",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "noupdates",
+        "lastinstall": "2020-02-05T19:15:02"
+      },
+      "type": "Dimmable light",
+      "name": "au miroir de droite",
+      "modelid": "LWE002",
+      "manufacturername": "Signify Netherlands B.V.",
+      "productname": "Hue white candle",
+      "capabilities": {
+        "certified": true,
+        "control": {
+          "mindimlevel": 2000,
+          "maxlumen": 470
+        },
+        "streaming": {
+          "renderer": false,
+          "proxy": false
+        }
+      },
+      "config": {
+        "archetype": "recessedceiling",
+        "function": "functional",
+        "direction": "omnidirectional",
+        "startup": {
+          "mode": "powerfail",
+          "configured": true
+        }
+      },
+      "uniqueid": "00:17:88:01:06:c0:ce:67-0b",
+      "swversion": "1.65.9_hB3217DF",
+      "swconfigid": "47CD0325",
+      "productid": "Philips-LWE002-1-E14DLv1"
+    },
+    "15": {
+      "state": {
+        "on": false,
+        "bri": 127,
+        "alert": "select",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "noupdates",
+        "lastinstall": "2020-02-05T19:15:00"
+      },
+      "type": "Dimmable light",
+      "name": "à la salle de bain",
+      "modelid": "LWA001",
+      "manufacturername": "Signify Netherlands B.V.",
+      "productname": "Hue white lamp",
+      "capabilities": {
+        "certified": true,
+        "control": {
+          "mindimlevel": 5000,
+          "maxlumen": 800
+        },
+        "streaming": {
+          "renderer": false,
+          "proxy": false
+        }
+      },
+      "config": {
+        "archetype": "ceilinground",
+        "function": "functional",
+        "direction": "omnidirectional",
+        "startup": {
+          "mode": "powerfail",
+          "configured": true
+        }
+      },
+      "uniqueid": "00:17:88:01:06:d2:da:a7-0b",
+      "swversion": "1.65.9_hB3217DF",
+      "swconfigid": "44288730",
+      "productid": "Philips-LWA001-1-A19DLv5"
+    },
+    "16": {
+      "state": {
+        "on": false,
+        "bri": 25,
+        "alert": "select",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "noupdates",
+        "lastinstall": "2020-02-05T19:14:57"
+      },
+      "type": "Dimmable light",
+      "name": "à la penderie",
+      "modelid": "LWA001",
+      "manufacturername": "Signify Netherlands B.V.",
+      "productname": "Hue white lamp",
+      "capabilities": {
+        "certified": true,
+        "control": {
+          "mindimlevel": 5000,
+          "maxlumen": 800
+        },
+        "streaming": {
+          "renderer": false,
+          "proxy": false
+        }
+      },
+      "config": {
+        "archetype": "ceilinground",
+        "function": "functional",
+        "direction": "omnidirectional",
+        "startup": {
+          "mode": "powerfail",
+          "configured": true
+        }
+      },
+      "uniqueid": "00:17:88:01:06:d2:f0:e8-0b",
+      "swversion": "1.65.9_hB3217DF",
+      "swconfigid": "44288730",
+      "productid": "Philips-LWA001-1-A19DLv5"
+    },
+    "17": {
+      "state": {
+        "on": false,
+        "bri": 254,
+        "alert": "select",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "noupdates",
+        "lastinstall": "2020-02-05T19:14:52"
+      },
+      "type": "Dimmable light",
+      "name": "au couloir",
+      "modelid": "LWA001",
+      "manufacturername": "Signify Netherlands B.V.",
+      "productname": "Hue white lamp",
+      "capabilities": {
+        "certified": true,
+        "control": {
+          "mindimlevel": 5000,
+          "maxlumen": 800
+        },
+        "streaming": {
+          "renderer": false,
+          "proxy": false
+        }
+      },
+      "config": {
+        "archetype": "ceilinground",
+        "function": "functional",
+        "direction": "omnidirectional",
+        "startup": {
+          "mode": "powerfail",
+          "configured": true
+        }
+      },
+      "uniqueid": "00:17:88:01:06:b2:5c:28-0b",
+      "swversion": "1.65.9_hB3217DF",
+      "swconfigid": "44288730",
+      "productid": "Philips-LWA001-1-A19DLv5"
+    },
+    "20": {
+      "state": {
+        "on": false,
+        "bri": 127,
+        "hue": 40192,
+        "sat": 238,
+        "effect": "none",
+        "xy": [
+          0.1419,
+          0.1421
+        ],
+        "ct": 378,
+        "alert": "lselect",
+        "colormode": "ct",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "notupdatable",
+        "lastinstall": "2020-02-27T16:20:03"
+      },
+      "type": "Extended color light",
+      "name": "Près de la télé",
+      "modelid": "GL-B-008Z",
+      "manufacturername": "GLEDOPTO",
+      "productname": "Extended color light",
+      "capabilities": {
+        "certified": false,
+        "control": {
+          "colorgamuttype": "other",
+          "ct": {
+            "min": 155,
+            "max": 495
+          }
+        },
+        "streaming": {
+          "renderer": false,
+          "proxy": false
+        }
+      },
+      "config": {
+        "archetype": "floorshade",
+        "function": "mixed",
+        "direction": "omnidirectional"
+      },
+      "uniqueid": "00:12:4b:00:1e:e7:3a:cf-0b",
+      "swversion": "2.0.1"
+    },
+    "21": {
+      "state": {
+        "on": false,
+        "bri": 153,
+        "hue": 0,
+        "sat": 254,
+        "effect": "none",
+        "xy": [
+          0.1838,
+          0.7073
+        ],
+        "ct": 319,
+        "alert": "lselect",
+        "colormode": "ct",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "notupdatable",
+        "lastinstall": "2020-02-27T16:24:06"
+      },
+      "type": "Extended color light",
+      "name": "Près du canapé",
+      "modelid": "GL-B-007Z",
+      "manufacturername": "GLEDOPTO",
+      "productname": "Extended color light",
+      "capabilities": {
+        "certified": false,
+        "control": {
+          "colorgamuttype": "other",
+          "ct": {
+            "min": 155,
+            "max": 495
+          }
+        },
+        "streaming": {
+          "renderer": false,
+          "proxy": false
+        }
+      },
+      "config": {
+        "archetype": "floorshade",
+        "function": "mixed",
+        "direction": "omnidirectional"
+      },
+      "uniqueid": "00:12:4b:00:1e:e7:2f:35-0b",
+      "swversion": "2.0.1"
+    },
+    "22": {
+      "state": {
+        "on": false,
+        "bri": 89,
+        "hue": 8960,
+        "sat": 140,
+        "effect": "none",
+        "xy": [
+          0.4663,
+          0.3466
+        ],
+        "ct": 353,
+        "alert": "select",
+        "colormode": "ct",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "notupdatable",
+        "lastinstall": "2020-02-27T19:18:45"
+      },
+      "type": "Extended color light",
+      "name": "LED",
+      "modelid": "GL-MC-001",
+      "manufacturername": "GLEDOPTO",
+      "productname": "Extended color light",
+      "capabilities": {
+        "certified": false,
+        "control": {
+          "colorgamuttype": "other",
+          "ct": {
+            "min": 155,
+            "max": 495
+          }
+        },
+        "streaming": {
+          "renderer": false,
+          "proxy": false
+        }
+      },
+      "config": {
+        "archetype": "huelightstrip",
+        "function": "mixed",
+        "direction": "omnidirectional"
+      },
+      "uniqueid": "00:12:4b:00:1e:e9:6e:e6-0b",
+      "swversion": "2.0.1"
+    },
+    "23": {
+      "state": {
+        "on": false,
+        "bri": 145,
+        "hue": 42240,
+        "sat": 245,
+        "effect": "none",
+        "xy": [
+          0.1399,
+          0.0683
+        ],
+        "ct": 447,
+        "alert": "lselect",
+        "colormode": "ct",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "notupdatable",
+        "lastinstall": "2020-02-28T18:42:51"
+      },
+      "type": "Extended color light",
+      "name": "Le Plafonnier",
+      "modelid": "GL-B-007Z",
+      "manufacturername": "GLEDOPTO",
+      "productname": "Extended color light",
+      "capabilities": {
+        "certified": false,
+        "control": {
+          "colorgamuttype": "other",
+          "ct": {
+            "min": 155,
+            "max": 495
+          }
+        },
+        "streaming": {
+          "renderer": false,
+          "proxy": false
+        }
+      },
+      "config": {
+        "archetype": "ceilinground",
+        "function": "mixed",
+        "direction": "omnidirectional"
+      },
+      "uniqueid": "00:12:4b:00:1e:e9:d6:55-0b",
+      "swversion": "2.0.1"
+    },
+    "24": {
+      "state": {
+        "on": false,
+        "bri": 25,
+        "hue": 0,
+        "sat": 181,
+        "effect": "none",
+        "xy": [
+          0.171,
+          0.3486
+        ],
+        "ct": 344,
+        "alert": "select",
+        "colormode": "ct",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "notupdatable",
+        "lastinstall": "2020-02-28T19:07:34"
+      },
+      "type": "Extended color light",
+      "name": "Le ruban du bas",
+      "modelid": "GL-C-008",
+      "manufacturername": "GLEDOPTO",
+      "productname": "Extended color light",
+      "capabilities": {
+        "certified": false,
+        "control": {
+          "colorgamuttype": "other",
+          "ct": {
+            "min": 0,
+            "max": 65535
+          }
+        },
+        "streaming": {
+          "renderer": false,
+          "proxy": false
+        }
+      },
+      "config": {
+        "archetype": "huelightstrip",
+        "function": "mixed",
+        "direction": "omnidirectional"
+      },
+      "uniqueid": "00:12:4b:00:1f:79:e4:c4-0b",
+      "swversion": "2.0.1"
+    },
+    "25": {
+      "state": {
+        "on": false,
+        "bri": 203,
+        "hue": 0,
+        "sat": 163,
+        "effect": "none",
+        "xy": [
+          0.4165,
+          0.3954
+        ],
+        "ct": 300,
+        "alert": "lselect",
+        "colormode": "ct",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "notupdatable",
+        "lastinstall": "2020-02-29T12:26:19"
+      },
+      "type": "Extended color light",
+      "name": "Spot 2",
+      "modelid": "ZBT-ExtendedColor",
+      "manufacturername": "MLI",
+      "productname": "Extended color light",
+      "capabilities": {
+        "certified": false,
+        "control": {
+          "colorgamuttype": "other",
+          "colorgamut": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "ct": {
+            "min": 153,
+            "max": 555
+          }
+        },
+        "streaming": {
+          "renderer": false,
+          "proxy": false
+        }
+      },
+      "config": {
+        "archetype": "doublespot",
+        "function": "mixed",
+        "direction": "omnidirectional"
+      },
+      "uniqueid": "cc:cc:cc:ff:fe:ba:c9:65-01",
+      "swversion": "2.2"
+    },
+    "26": {
+      "state": {
+        "on": false,
+        "bri": 203,
+        "hue": 0,
+        "sat": 163,
+        "effect": "none",
+        "xy": [
+          0.4165,
+          0.3954
+        ],
+        "ct": 300,
+        "alert": "lselect",
+        "colormode": "ct",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "notupdatable",
+        "lastinstall": "2020-02-29T12:26:20"
+      },
+      "type": "Extended color light",
+      "name": "Spot 1",
+      "modelid": "ZBT-ExtendedColor",
+      "manufacturername": "MLI",
+      "productname": "Extended color light",
+      "capabilities": {
+        "certified": false,
+        "control": {
+          "colorgamuttype": "other",
+          "colorgamut": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "ct": {
+            "min": 153,
+            "max": 555
+          }
+        },
+        "streaming": {
+          "renderer": false,
+          "proxy": false
+        }
+      },
+      "config": {
+        "archetype": "doublespot",
+        "function": "mixed",
+        "direction": "omnidirectional"
+      },
+      "uniqueid": "cc:cc:cc:ff:fe:3a:0b:f2-01",
+      "swversion": "2.2"
+    },
+    "27": {
+      "state": {
+        "on": false,
+        "bri": 203,
+        "hue": 0,
+        "sat": 163,
+        "effect": "none",
+        "xy": [
+          0.4165,
+          0.3954
+        ],
+        "ct": 300,
+        "alert": "lselect",
+        "colormode": "ct",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "notupdatable",
+        "lastinstall": "2020-02-29T12:26:22"
+      },
+      "type": "Extended color light",
+      "name": "Spot 3",
+      "modelid": "ZBT-ExtendedColor",
+      "manufacturername": "MLI",
+      "productname": "Extended color light",
+      "capabilities": {
+        "certified": false,
+        "control": {
+          "colorgamuttype": "other",
+          "colorgamut": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "ct": {
+            "min": 153,
+            "max": 556
+          }
+        },
+        "streaming": {
+          "renderer": false,
+          "proxy": false
+        }
+      },
+      "config": {
+        "archetype": "doublespot",
+        "function": "mixed",
+        "direction": "omnidirectional"
+      },
+      "uniqueid": "00:0d:6f:ff:fe:1f:25:45-01",
+      "swversion": "2.6"
+    },
+    "28": {
+      "state": {
+        "on": false,
+        "bri": 203,
+        "hue": 18176,
+        "sat": 254,
+        "effect": "none",
+        "xy": [
+          0.1838,
+          0.7073
+        ],
+        "ct": 283,
+        "alert": "select",
+        "colormode": "ct",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "notupdatable",
+        "lastinstall": "2020-05-28T08:45:24"
+      },
+      "type": "Extended color light",
+      "name": "Le ruban du haut",
+      "modelid": "GL-MC-001",
+      "manufacturername": "GLEDOPTO",
+      "productname": "Extended color light",
+      "capabilities": {
+        "certified": false,
+        "control": {
+          "colorgamuttype": "other",
+          "ct": {
+            "min": 155,
+            "max": 495
+          }
+        },
+        "streaming": {
+          "renderer": false,
+          "proxy": false
+        }
+      },
+      "config": {
+        "archetype": "huelightstrip",
+        "function": "mixed",
+        "direction": "omnidirectional"
+      },
+      "uniqueid": "00:12:4b:00:1f:b7:63:20-0b",
+      "swversion": "2.0.1"
+    },
+    "29": {
+      "state": {
+        "on": true,
+        "bri": 178,
+        "ct": 283,
+        "alert": "select",
+        "colormode": "ct",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "notupdatable",
+        "lastinstall": "2020-06-30T16:06:16"
+      },
+      "type": "Color temperature light",
+      "name": "Chez Papa",
+      "modelid": "ZBT-ColorTemperature",
+      "manufacturername": "MLI",
+      "productname": "Color temperature light",
+      "capabilities": {
+        "certified": false,
+        "control": {
+          "ct": {
+            "min": 153,
+            "max": 370
+          }
+        },
+        "streaming": {
+          "renderer": false,
+          "proxy": false
+        }
+      },
+      "config": {
+        "archetype": "tablewash",
+        "function": "functional",
+        "direction": "omnidirectional"
+      },
+      "uniqueid": "00:15:8d:00:02:ca:87:a1-01",
+      "swversion": "2.0"
+    },
+    "30": {
+      "state": {
+        "on": false,
+        "bri": 203,
+        "ct": 303,
+        "alert": "select",
+        "colormode": "ct",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "notupdatable",
+        "lastinstall": "2020-08-22T14:38:08"
+      },
+      "type": "Color temperature light",
+      "name": "Projecteur",
+      "modelid": "ZBT-ColorTemperature",
+      "manufacturername": "MLI",
+      "productname": "Color temperature light",
+      "capabilities": {
+        "certified": false,
+        "control": {
+          "ct": {
+            "min": 153,
+            "max": 370
+          }
+        },
+        "streaming": {
+          "renderer": false,
+          "proxy": false
+        }
+      },
+      "config": {
+        "archetype": "tablewash",
+        "function": "functional",
+        "direction": "omnidirectional"
+      },
+      "uniqueid": "00:15:8d:00:03:27:a5:de-01",
+      "swversion": "2.0"
+    },
+    "31": {
+      "state": {
+        "on": false,
+        "bri": 191,
+        "hue": 22016,
+        "sat": 26,
+        "effect": "none",
+        "xy": [
+          0.3629,
+          0.3648
+        ],
+        "ct": 225,
+        "alert": "select",
+        "colormode": "ct",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "notupdatable",
+        "lastinstall": "2020-08-25T08:33:28"
+      },
+      "type": "Extended color light",
+      "name": "Bande Lumineuse",
+      "modelid": "FB56-ZCW20FB1.2",
+      "manufacturername": "FeeBit  RGBW    ",
+      "productname": "Extended color light",
+      "capabilities": {
+        "certified": false,
+        "control": {
+          "colorgamuttype": "other",
+          "ct": {
+            "min": 210,
+            "max": 234
+          }
+        },
+        "streaming": {
+          "renderer": false,
+          "proxy": false
+        }
+      },
+      "config": {
+        "archetype": "huelightstrip",
+        "function": "mixed",
+        "direction": "omnidirectional"
+      },
+      "uniqueid": "00:12:4b:00:1f:87:7a:46-0b",
+      "swversion": "1.0.0"
+    },
+    "32": {
+      "state": {
+        "on": false,
+        "bri": 190,
+        "hue": 0,
+        "sat": 175,
+        "effect": "none",
+        "xy": [
+          0.445,
+          0.4067
+        ],
+        "ct": 369,
+        "alert": "select",
+        "colormode": "ct",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "notupdatable",
+        "lastinstall": "2020-10-01T08:40:20"
+      },
+      "type": "Extended color light",
+      "name": "Sous le lit B",
+      "modelid": "GL-MC-001",
+      "manufacturername": "GLEDOPTO",
+      "productname": "Extended color light",
+      "capabilities": {
+        "certified": false,
+        "control": {
+          "colorgamuttype": "other",
+          "ct": {
+            "min": 155,
+            "max": 495
+          }
+        },
+        "streaming": {
+          "renderer": false,
+          "proxy": false
+        }
+      },
+      "config": {
+        "archetype": "huelightstrip",
+        "function": "mixed",
+        "direction": "omnidirectional"
+      },
+      "uniqueid": "00:12:4b:00:21:0c:2b:27-0b",
+      "swversion": "2.0.1"
+    },
+    "33": {
+      "state": {
+        "on": false,
+        "bri": 190,
+        "hue": 0,
+        "sat": 175,
+        "effect": "none",
+        "xy": [
+          0.445,
+          0.4067
+        ],
+        "ct": 369,
+        "alert": "select",
+        "colormode": "ct",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "notupdatable",
+        "lastinstall": "2020-10-01T08:44:22"
+      },
+      "type": "Extended color light",
+      "name": "Sous le lit A",
+      "modelid": "GL-MC-001",
+      "manufacturername": "GLEDOPTO",
+      "productname": "Extended color light",
+      "capabilities": {
+        "certified": false,
+        "control": {
+          "colorgamuttype": "other",
+          "ct": {
+            "min": 155,
+            "max": 495
+          }
+        },
+        "streaming": {
+          "renderer": false,
+          "proxy": false
+        }
+      },
+      "config": {
+        "archetype": "huelightstrip",
+        "function": "mixed",
+        "direction": "omnidirectional"
+      },
+      "uniqueid": "00:12:4b:00:21:0c:30:9f-0b",
+      "swversion": "2.0.1"
+    },
+    "34": {
+      "state": {
+        "on": true,
+        "bri": 25,
+        "hue": 14988,
+        "sat": 254,
+        "effect": "none",
+        "xy": [
+          0.1431,
+          0.0459
+        ],
+        "ct": 337,
+        "alert": "select",
+        "colormode": "ct",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "notupdatable",
+        "lastinstall": null
+      },
+      "type": "Extended color light",
+      "name": "Table",
+      "modelid": "TS0505A",
+      "manufacturername": "_TZ3000_dbou1ap4",
+      "productname": "Extended color light",
+      "capabilities": {
+        "certified": false,
+        "control": {
+          "colorgamuttype": "other",
+          "ct": {
+            "min": 0,
+            "max": 65535
+          }
+        },
+        "streaming": {
+          "renderer": false,
+          "proxy": false
+        }
+      },
+      "config": {
+        "archetype": "tablewash",
+        "function": "mixed",
+        "direction": "omnidirectional"
+      },
+      "uniqueid": "58:8e:81:ff:fe:ae:d9:e9-01",
+      "swversion": ""
+    }
+  

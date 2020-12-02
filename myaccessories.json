@@ -65,7 +65,8 @@
         "/lights/31",
         "/lights/32",
         "/lights/33",
-        "/lights/34"
+        "/lights/34",
+        "/lights/36"
       ]
     }
   }
@@ -2003,4 +2004,53 @@
       "uniqueid": "58:8e:81:ff:fe:ae:d9:e9-01",
       "swversion": ""
     }
+    "36": {
+      "state": {
+        "on": false,
+        "bri": 25,
+        "hue": 14988,
+        "sat": 254,
+        "effect": "none",
+        "xy": [
+          0.6724,
+          0.3019
+        ],
+        "ct": 442,
+        "alert": "select",
+        "colormode": "ct",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "notupdatable",
+        "lastinstall": null
+      },
+      "type": "Extended color light",
+      "name": "Le plan de travail",
+      "modelid": "TS0505A",
+      "manufacturername": "_TZ3000_riwp3k79",
+      "productname": "Extended color light",
+      "capabilities": {
+        "certified": false,
+        "control": {
+          "colorgamuttype": "other",
+          "ct": {
+            "min": 0,
+            "max": 65535
+          }
+        },
+        "streaming": {
+          "renderer": false,
+          "proxy": false
+        }
+      },
+      "config": {
+        "archetype": "huelightstrip",
+        "function": "mixed",
+        "direction": "omnidirectional"
+      },
+      "uniqueid": "58:8e:81:ff:fe:fb:a0:15-01",
+      "swversion": ""
+    }
+  
   

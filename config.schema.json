@@ -290,6 +290,7 @@
           "condition": { "functionBody": "return model.groups && model.scenes" }
         },
         "linkButton",
+        "hideBridge",
         "schedules",
         "rules"
       ]
